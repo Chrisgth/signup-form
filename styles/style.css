@@ -65,15 +65,16 @@ main{
 #formcontainer{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     height: 100vh;
     width: 100vw;
+    background-color:rgb(226, 226, 226);
 }
 form{
     display:flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 33vh;
+    height: 40vh;
 }
 #inputs{
     display:flex;
@@ -86,10 +87,13 @@ form{
 }
 input{
     width: 20vw;
-    border: 1px solid gray;
+    border: 1px solid rgb(179, 179, 179);
     border-radius: 2px;
     padding-right: 20px;
     margin-right: 1em;
+    font-size: 1rem;
+    border-radius: 3px;
+    padding: 8px;
 }
 label{
     font-weight: bold;
@@ -101,12 +105,13 @@ label{
     width: 1rem;
 }
 #formbgcontainer{
-background-color: gray;
+background-color: white;
 height: 100%;
 display: flex;
 flex-direction: column;
 justify-content: space-around;
 padding-left: 3rem;
+border: solid 1px rgb(216, 216, 216)
 }
 
 #formcontainer > div{
@@ -116,14 +121,37 @@ padding-left: 3rem;
 
 p{
     font-size: 1.5rem;
-    padding-bottom: 2.5rem;
     padding-top: 2.5rem;
+    font-weight: 900;
 }
 
 legend{
     font-size: 1.5rem;
     font-weight: bold;
 }
-#toptext{
-    margin-bottom: 5rem;
+button{
+    width: 20rem;
+    height: 3.5rem;
+    margin-left: 3rem;
+    position: relative;
+    top: 3rem;
+    border-radius: 10px;
+    border: 0;
+    background-color: brown;
+    color: white;
+    font-size: 1rem;
+    font-weight: 900;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: brown;
+}
+a:hover{
+    color:brown;
+    text-decoration: underline;
 }
