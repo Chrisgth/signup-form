@@ -62,7 +62,7 @@ main{
     width: 66%;
     font-family: 'Bebas Neue', cursive, sans-serif;;
 }
-#form{
+#formcontainer{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -71,17 +71,33 @@ main{
     width: 100%;
 }
 form{
-    background-color: white;
-    height: auto;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 33%;
 }
 #inputs{
     display:flex;
     flex-wrap: wrap;
+    background-color: white;
+    padding-bottom: 8px;
 }
 .inputwlabel{
     display: flex;
     flex-direction: column;
 }
 input{
-    width: 100%;
+    width: 20vw;
+    border: 1px solid gray;
+    border-radius: 2px;
+    padding-right: 20px;
+    margin-left: 1em;
+    margin-right: 1em;
+    font-size: 8px;
+}
+label{
+    font-size: 6px;
+    font-weight: bold;
+    width:80%;
+    margin: 1em 1em 0.5em 8px;
 }
