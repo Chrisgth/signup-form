@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -20,7 +21,6 @@ time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	font: inherit;
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
@@ -47,4 +47,27 @@ table {
 	border-spacing: 0;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+html{
+    font-family: sans-serif;
+}
+
+main{
+    display:flex;
+    height: 100vh;
+    width: 100vw;
+}
+#background{
+    background: no-repeat url("../images/background.jpg");
+    background-size: 100% 100%;
+    height: 100%;
+    width: 66%;
+    font-family: 'Bebas Neue', cursive, sans-serif;;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color:yellow;
+    height: 100%;
+    width: 100%;
+}
