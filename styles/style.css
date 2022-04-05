@@ -157,10 +157,11 @@ a:hover{
     text-decoration: underline;
 }
 #logocontainer{
-    margin-top: 30vh;
+    margin-top: 20vh;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 7rem;
     color: #603913;
+    background-color: rgba(0, 0, 0, 0.8)
 }
